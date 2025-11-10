@@ -49,11 +49,6 @@ class Concessionaria:
         self.empty_positions:list[int] = list(range(1, positions+1))
         self.complete_positions:list[int] = []
 
-        if self.arquivo:
-
-        else:
-            print('Sem arquivos!')
-
     def __repr__(self):
         return f'Concessionaria(nome=\'{self.nome}\', positions={self.positions}, arquivo_carros=\'{self.arquivo}\', dicio_carros={self.dicio_carros})'
 
